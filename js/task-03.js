@@ -24,3 +24,9 @@ const createGalleryEl = images
   .join("");
 
 galleryEl.insertAdjacentHTML("afterbegin", createGalleryEl);
+
+// galleryEl.style.display = "flex";
+// galleryEl.style.gap = "10px";
+// galleryEl.style.listStyle = "none";
+
+galleryEl.style.cssText = "display: flex; gap: 10px; list-style: none";
